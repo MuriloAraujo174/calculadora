@@ -69,3 +69,24 @@ input {
 .ora {
   background-color: #0cd0cd;
 }
+
+.dicas {
+background-color: rgb(31, 2, 137);
+color: antiquewhite;
+text-decoration: none;
+}
+
+.buttom {
+border: black solid 1px;
+border-radius: 3px;
+text-align: center;
+cursor: pointer;
+margin-top: 50px;
+margin-bottom: 15px;
+}
+
+.remove {
+border-radius: 50%;
+margin-top:10px ;
+margin-bottom:10px ;
+}
