@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora black</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./image/download.png">
 </head>
 <body>
 
     <div class="main">
         <form action="" name="calculator">
             <input type="text" class="text maincolor" name="text1" disabled><br>
-            <input type="text" class="text1 maincolor" name="text12" value="c" onclick="location.reload()"><br>
+            <input type="text" class="text1 maincolor" name="text12" value="AC" onclick="location.reload()"><br>
 
             <input type="button" class="num maincolor" name="btn9" value="9" onclick="displaynum(btn9.value)">
             <input type="button" class="num maincolor" name="btn8" value="8" onclick="displaynum(btn8.value)">
@@ -33,9 +34,16 @@
             <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
             <input type="button" class="num maincolor" name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
             <input type="button" class="num ora" name="divbtn" value="/" onclick="displaynum(divbtn.value)"><br>
+
+            <div class="buttom" >
+                <a class="dicas" href="./dicas.html">sobre a calculadora</a>
+            </div>
+
         </form>     
     </div>
     
 </body>
+
+
 <script src="script.js"></script>
 </html>
